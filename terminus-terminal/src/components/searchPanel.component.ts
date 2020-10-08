@@ -13,6 +13,7 @@ export class SearchPanelComponent {
     notFound = false
     options: SearchOptions = {
         incremental: true,
+        regex: true
     }
 
     @Output() close = new EventEmitter()
